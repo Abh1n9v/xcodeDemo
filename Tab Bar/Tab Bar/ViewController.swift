@@ -15,6 +15,7 @@ class ViewController: UIViewController,UIScrollViewDelegate {
     let images = ["image1","image3","image4"]
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Tabbar"
         scrollView.delegate = self
         imageSetup()
         // Do any additional setup after loading the view.
